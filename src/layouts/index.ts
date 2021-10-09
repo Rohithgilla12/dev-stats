@@ -5,6 +5,7 @@ import { railwayLayout } from "./railwayLayout";
 import { simpleLayout } from "./simpleLayout";
 import { starterLayout } from "./starterLayout";
 import { blogLayout } from "./blogLayout";
+import { articleStatsLayout } from "./articleStatsLayout";
 
 /**
  * All layouts that are available in the UI
@@ -16,6 +17,7 @@ export const layouts: ILayout[] = [
   blogLayout,
   docsLayout,
   patternLayout,
+  articleStatsLayout,
 ];
 
 export const getDefaultLayout = (layout: ILayout): ILayoutConfig => {
