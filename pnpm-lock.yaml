@@ -8,16 +8,16 @@ specifiers:
   '@types/puppeteer-core': 5.4.0
   '@types/react': ^17.0.5
   '@types/react-dom': ^17.0.4
-  '@types/styled-components': ^5.1.9
+  '@types/styled-components': ^5.1.15
   '@types/twemoji': ^12.1.1
   autoprefixer: ^10.2.5
   babel-plugin-macros: ^3.1.0
-  babel-plugin-styled-components: ^1.12.0
+  babel-plugin-styled-components: ^1.13.2
   copy-to-clipboard: ^3.3.1
   fathom-client: ^3.0.0
   marked: 2.0.3
   next: latest
-  next-seo: ^4.24.0
+  next-seo: ^4.28.1
   postcss: ^8.2.15
   prettier: ^2.3.0
   puppeteer-core: 9.1.1
@@ -25,12 +25,12 @@ specifiers:
   react-colorful: ^5.2.0
   react-dom: ^17.0.2
   react-feather: ^2.0.9
-  styled-components: ^5.3.0
+  styled-components: ^5.3.1
   tailwindcss: ^2.1.2
   theme-custom-properties: ^1.0.0
   twemoji: 13.0.2
   twin.macro: ^2.4.1
-  typescript: 4.2.4
+  typescript: 4.3.2
   use-local-storage-state: ^9.0.2
 
 dependencies:
@@ -38,7 +38,7 @@ dependencies:
   copy-to-clipboard: 3.3.1
   fathom-client: 3.2.0
   marked: 2.0.3
-  next: 11.1.2_507781d099a67956587e23f5ac79078b
+  next: 11.1.2_c8cdd86752aa86fb2b6e32ae91115ebe
   next-seo: 4.28.1_6fbf59523517da779df50d355b375324
   puppeteer-core: 9.1.1
   react: 17.0.2
@@ -66,7 +66,7 @@ devDependencies:
   prettier: 2.4.1
   tailwindcss: 2.2.16_96f83969316717847b3edf58a3f353f3
   twin.macro: 2.7.0
-  typescript: 4.2.4
+  typescript: 4.3.2
 
 packages:
 
@@ -2219,12 +2219,12 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 11.1.2_507781d099a67956587e23f5ac79078b
+      next: 11.1.2_c8cdd86752aa86fb2b6e32ae91115ebe
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: false
 
-  /next/11.1.2_507781d099a67956587e23f5ac79078b:
+  /next/11.1.2_c8cdd86752aa86fb2b6e32ae91115ebe:
     resolution: {integrity: sha512-azEYL0L+wFjv8lstLru3bgvrzPvK0P7/bz6B/4EJ9sYkXeW8r5Bjh78D/Ol7VOg0EIPz0CXoe72hzAlSAXo9hw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
@@ -2275,7 +2275,7 @@ packages:
       os-browserify: 0.3.0
       p-limit: 3.1.0
       path-browserify: 1.0.1
-      pnp-webpack-plugin: 1.6.4_typescript@4.2.4
+      pnp-webpack-plugin: 1.6.4_typescript@4.3.2
       postcss: 8.2.15
       process: 0.11.10
       querystring-es3: 0.2.1
@@ -2532,11 +2532,11 @@ packages:
     resolution: {integrity: sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==}
     dev: false
 
-  /pnp-webpack-plugin/1.6.4_typescript@4.2.4:
+  /pnp-webpack-plugin/1.6.4_typescript@4.3.2:
     resolution: {integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==}
     engines: {node: '>=6'}
     dependencies:
-      ts-pnp: 1.2.0_typescript@4.2.4
+      ts-pnp: 1.2.0_typescript@4.3.2
     transitivePeerDependencies:
       - typescript
     dev: false
@@ -3338,7 +3338,7 @@ packages:
       punycode: 2.1.1
     dev: false
 
-  /ts-pnp/1.2.0_typescript@4.2.4:
+  /ts-pnp/1.2.0_typescript@4.3.2:
     resolution: {integrity: sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==}
     engines: {node: '>=6'}
     peerDependencies:
@@ -3347,7 +3347,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 4.2.4
+      typescript: 4.3.2
     dev: false
 
   /tslib/1.14.1:
@@ -3403,8 +3403,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /typescript/4.2.4:
-    resolution: {integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==}
+  /typescript/4.3.2:
+    resolution: {integrity: sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true

@@ -6,16 +6,19 @@ ARG NEXT_PUBLIC_SITE_URL
 # Create app directory
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock ./
+# Install pnpm
+RUN curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm
 
-# Install deps
-RUN yarn
+# Files required by pnpm install
+COPY package.json pnpm-lock.yaml .pnpmfile.cjs ./
+
+RUN pnpm install --frozen-lockfile --prod
 
 # Bundle app source
 COPY . .
 
 # Build
-RUN yarn build
+RUN pnpm build
 
 # Start
-CMD [ "yarn", "start" ]
+CMD [ "pnpm", "start" ]
